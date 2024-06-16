@@ -1,6 +1,6 @@
 import React from "react";
 import Education from "./Education";
-import Experience from "./Experience";
+
 import Skills from "./Skills";
 import Knowledges from "./Knowledges";
 
@@ -17,8 +17,6 @@ export default function Resume() {
         <div className="section-wrapper pl-60 pr-60 mb-60">
           <div className="row">
             <Education />
-
-            <Experience />
           </div>
         </div>
 

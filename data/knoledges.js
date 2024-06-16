@@ -1,9 +1,6 @@
 export const knoledges = [
-  "Digital Design",
-  "Marketing",
+  "Figma",
   "Communication",
   "Social Media",
-  "Time Management",
   "Flexibility",
-  "Print",
 ];
