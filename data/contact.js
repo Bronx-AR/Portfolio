@@ -10,7 +10,7 @@ export const contactItems = [
     id: 2,
     iconSrc: "/assets/img/icon/email-icon.png",
     title: "email ",
-    content: ["support@gmail.com", "example@gmail.com"],
+    content: ["arnaudqpro@outlook.com"],
     bgColor: "bg-catkrill",
   },
   {
