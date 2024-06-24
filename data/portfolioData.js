@@ -12,7 +12,7 @@ export const portfolioData = [
     languages: ["HTML", "CSS", "Figma"],
     client: "Booki",
     previewLink: "https://github.com/Bronx-AR/Booki",
-    previewName: "www.booki.com",
+    previewName: "Code Preview",
     desc: [
       `The company wanted to develop a website that allows its users to find accomodation and activities in the city of their choice.
       For the project I intefrated the site interface in HTML and CSS, I had Figma models for mobile, tablet and desktop, as well as images and a summary
@@ -33,7 +33,7 @@ export const portfolioData = [
     languages: ["HTML", "SASS"],
     client: "Envato",
     previewLink: "https://github.com/Bronx-AR/Ohmyfood",
-    previewName: "www.ohmyfood.com",
+    previewName: "Code Preview",
     desc: [
       `For this project, the client wanted a website that lists the menus of gourmet restaurants, the mission was to integrate the site in mobile-first, 
       as well as to make the tablet and desktop version in accordance with the Figma models which were provided, while using SASS and including animations 
@@ -54,7 +54,7 @@ export const portfolioData = [
     languages: ["HTML", "JavaScript"],
     client: "Print-It",
     previewLink: "https://github.com/Bronx-AR/Print-it",
-    previewName: "www.print-it.com",
+    previewName: "Code Preview",
     desc: [
       `For this project the client, Print-in which is a printing company, wanted to dynamize their static
       website by adding an interactive carousel. So my mission was to update the existing HTML code and add a carousel in JavaScript.
@@ -74,7 +74,7 @@ export const portfolioData = [
     languages: ["HTML", "SASS", "JavaScript", "API"],
     client: "Sophie Bluel",
     previewLink: "https://github.com/Bronx-AR/Sophie-Bluel",
-    previewName: "www.sophiebluel.com",
+    previewName: "Code Preview",
     desc: [
       `For this portfolio site of an interior designer: Sophie Bluel,
       the mission was to integrate the dynamic part of the site, such as the creation of a gallery,
@@ -97,7 +97,7 @@ export const portfolioData = [
     languages: ["HTML", "SASS", "React"],
     client: "Kasa",
     previewLink: "https://github.com/Bronx-AR/Kasa",
-    previewName: "www.kasa.com",
+    previewName: "Code Preview",
     desc: [
       `For this project, the company wanted a entire redesign of their website and implement the
       front-end of the application using React, Create-React-App, React Router and Sass;they also
@@ -118,7 +118,7 @@ export const portfolioData = [
     languages: ["SEO"],
     client: "Nina Carducci",
     previewLink: "https://github.com/Bronx-AR/Nina-Carducci",
-    previewName: "www.ninacarducci.com",
+    previewName: "Code Preview",
     desc: [
       `For this project it was necessary to make a global optimization of the site of
       the photographer Nina Carducci, both in terms of performance and SEO, set up local
@@ -143,7 +143,7 @@ export const portfolioData = [
     languages: ["JavaScript"],
     client: "724 Events",
     previewLink: "#",
-    previewName: "www.724events.com",
+    previewName: "Code Preview",
     desc: [
       `For this project, the events agency 724 Event wanted to correct a
       few bugs on their site, particularly for the carousel as well as the
@@ -166,7 +166,7 @@ export const portfolioData = [
     languages: ["React", "Redux", "API"],
     client: "Argent Bank",
     previewLink: "https://github.com/Bronx-AR/ArgentBank",
-    previewName: "www.argentbank.com",
+    previewName: "Code Preview",
     desc: [
       `For this project Argent Bank wanted to integrate their entire site using React and Redux
       as well as using green code best practices. They wanted the user to have access to their
