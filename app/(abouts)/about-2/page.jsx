@@ -5,7 +5,7 @@ import React from "react";
 export const metadata = {
   title: "About",
   description:
-    "Discover Botami,the most impressive portfolio template for work showcase, blog",
+    "A multidisciplinary developer based in Toulouse, focus on web design.",
 };
 export default function page() {
   return (

@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { Navigation, Pagination, Autoplay } from "swiper";
-import { Swiper } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { bioData } from "@/data/bioData";
 import { contactData } from "@/data/contactData";
 import Image from "next/image";
@@ -81,7 +81,6 @@ export default function AboutTwo() {
               <h2 className="section-title">What I do!</h2>
             </div>
           </div>
-
         </div>
       </div>
 

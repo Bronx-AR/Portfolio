@@ -5,9 +5,9 @@ import Portfolio from "@/components/homes/portfolio/Portfolio";
 import React from "react";
 
 export const metadata = {
-  title: "Portfolio",
+  title: "Arnaud QUATREVAUX Portfolio",
   description:
-    "Discover Botami,the most impressive portfolio template for work showcase, blog",
+    "A multidisciplinary developer based in Toulouse, focus on web design.",
 };
 export default function page() {
   return (

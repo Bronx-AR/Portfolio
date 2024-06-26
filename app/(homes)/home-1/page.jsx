@@ -7,7 +7,7 @@ import MenuTwo from "@/components/homes/menus/MenuTwo";
 export const metadata = {
   title: "Home",
   description:
-    "Discover Botami,the most impressive portfolio template for work showcase, blog",
+    "A multidisciplinary developer based in Toulouse, focus on web design.",
 };
 
 export default function Home1() {

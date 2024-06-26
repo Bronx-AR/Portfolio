@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { bioData } from "@/data/bioData";
 
 export default function AboutOne() {
-  const [setShowSlider] = useState(false);
+  const [showSlider, setShowSlider] = useState(false);
   useEffect(() => {
     setShowSlider(true);
   }, []);
