@@ -2,10 +2,9 @@
 
 import React, { useEffect, useState } from "react";
 import { bioData } from "@/data/bioData";
-import Image from "next/image";
 
 export default function AboutOne() {
-  const [showSlider, setShowSlider] = useState(false);
+  const [setShowSlider] = useState(false);
   useEffect(() => {
     setShowSlider(true);
   }, []);

@@ -1,6 +1,4 @@
 "use client";
-
-import { menuItemsTwo } from "@/data/menu";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import Menu from "../menus/Menu";
@@ -91,23 +89,6 @@ export default function HeaderTwo() {
                           home
                         </Link>
                       </li>
-
-                      {menuItemsTwo.map((elm, i) => (
-                        <li
-                          key={i}
-                          className={pathname == elm.href ? "active" : ""}
-                        >
-                          <Link
-                            href={elm.href}
-                            style={{ display: "flex", alignItems: "center" }}
-                          >
-                            <span style={{ fontSize: "21px" }}>
-                              <i className={elm.icon}></i>
-                            </span>
-                            <span> {elm.text.toLowerCase()}</span>
-                          </Link>
-                        </li>
-                      ))}
                     </ul>
                   </nav>
                 </div>
@@ -140,7 +121,6 @@ export default function HeaderTwo() {
 
         <div className="mobile-menu-wrap">
           <div className={`mobile-menu mobile_menu_2 ${menuOpen && "active"} `}>
-            <Menu setMenuOpen={setMenuOpen} data={menuItemsTwo} />
           </div>
         </div>
       </div>

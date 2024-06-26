@@ -1,10 +1,8 @@
 "use client";
 
-import { items, itemsTwo } from "@/data/jobFeatures";
 import React, { useEffect, useState } from "react";
-import { clientLogos } from "@/data/clientLogos";
 import { Navigation, Pagination, Autoplay } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper } from "swiper/react";
 import { bioData } from "@/data/bioData";
 import { contactData } from "@/data/contactData";
 import Image from "next/image";
@@ -84,25 +82,6 @@ export default function AboutTwo() {
             </div>
           </div>
 
-          {itemsTwo.map((elm, i) => (
-            <div key={i} className="col-xl-4 col-lg-6 col-md-6">
-              <div className={`bostami-what-do-item ${elm.bg}`}>
-                <div className="icon" style={{ margin: "0 auto" }}>
-                  <Image
-                    height={45}
-                    width={180}
-                    style={{ margin: "0 auto" }}
-                    alt="feature"
-                    src={elm.icon}
-                  />
-                </div>
-                <div className="text">
-                  <h4 className="title">{elm.title}</h4>
-                  <p>{elm.description}</p>
-                </div>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
 
@@ -144,20 +123,6 @@ export default function AboutTwo() {
                       },
                     }}
                   >
-                    {clientLogos.map((elm, i) => (
-                      <SwiperSlide key={i}>
-                        <div className="swiper-slide">
-                          <Image
-                            height={62}
-                            width={264}
-                            style={{ height:'62px',width:'fit-content'}}
-                            className="bostami-client-slider-logo"
-                            src={elm.imgSrc}
-                            alt="client"
-                          />
-                        </div>
-                      </SwiperSlide>
-                    ))}
                   </Swiper>
                 )}
               </div>
