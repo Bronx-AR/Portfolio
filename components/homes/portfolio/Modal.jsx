@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import React, { useEffect } from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carousel styles
+import { Carousel } from "react-responsive-carousel";
 
 export default function Modal({ setShowModal, showModal, modalContent }) {
   useEffect(() => {
@@ -87,19 +89,25 @@ export default function Modal({ setShowModal, showModal, modalContent }) {
                 ))}
               </div>
               <div className="h1-modal-img">
-                {modalContent?.imgSrc && (
-                  <Image
-                    width={800}
-                    height={800}
-                    style={{
-                      width: "100%",
-                      height: "fit-content",
-                      maxHeight: "450px",
-                      objectFit: "cover",
-                    }}
-                    src={modalContent?.imgSrc}
-                    alt="portfolio"
-                  />
+                {modalContent?.imgSrcs && (
+                  <Carousel showThumbs={false}>
+                    {modalContent.imgSrcs.map((src, index) => (
+                      <div key={index}>
+                        <Image
+                          width={800}
+                          height={800}
+                          style={{
+                            width: "100%",
+                            height: "fit-content",
+                            maxHeight: "450px",
+                            objectFit: "cover",
+                          }}
+                          src={src}
+                          alt={`portfolio-${index}`}
+                        />
+                      </div>
+                    ))}
+                  </Carousel>
                 )}
               </div>
             </div>

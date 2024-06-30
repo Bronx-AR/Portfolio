@@ -19,6 +19,7 @@ export const portfolioData = [
       note on the specifies of the project. This allowed me to develop essential skills in responsive design, integrate a site according to a model as well
       as install a front-end development environment.`,
     ],
+    imgSrcs : ["/assets/img/carousel/Booki2.png", "/assets/img/carousel/Booki1.png"],
   },
   {
     id: 2,
@@ -40,6 +41,7 @@ export const portfolioData = [
       to enrich the user experience of the site, all by versioning the site on GitHub. This allowed me to develop skills in mobile-first responsive design, 
       use of SASS as well as the use of GitHub.`,
     ],
+    imgSrcs : ["/assets/img/carousel/Ohmyfood.png", "/assets/img/carousel/Ohmyfood1.png"],
   },
   {
     id: 3,
@@ -60,6 +62,7 @@ export const portfolioData = [
       website by adding an interactive carousel. So my mission was to update the existing HTML code and add a carousel in JavaScript.
       This project allowed me to work on the fundamentals of JavaScript.`,
     ],
+    imgSrcs : ["/assets/img/carousel/Print-it.png", "/assets/img/carousel/Print-it1.png"],
   },
   {
     id: 4,
@@ -83,6 +86,7 @@ export const portfolioData = [
       as well as learn to communicate with a database.
       `,
     ],
+    imgSrcs : ["/assets/img/carousel/Sophie-Bluel.png", "/assets/img/carousel/Sophie-Bluel1.png"],
   },
   {
     id: 5,
@@ -104,6 +108,7 @@ export const portfolioData = [
       wanted to add animations to improve the user experience. This project allowed me to learn
       programming with React and therefore to develop my code into components.`,
     ],
+    imgSrcs : ["/assets/img/carousel/Kasa.png", "/assets/img/carousel/Kasa1.png"],
   },
   {
     id: 6,
@@ -129,6 +134,7 @@ export const portfolioData = [
       with schema.org. It also allowed me to strengthen my knowledge of HTML semantics for
       accessibility, as well as how to optimize images for a site.`,
     ],
+    imgSrcs : ["/assets/img/carousel/Nina-Carducci.png", "/assets/img/carousel/Nina-Carducci1.png"],
   },
   {
     id: 7,
@@ -152,6 +158,7 @@ export const portfolioData = [
       It also taught me how to write unit tests for different components, and strengthen
       my knowledge of using the console in the middle of development.`,
     ],
+    imgSrcs : ["/assets/img/carousel/724-Events.png", "/assets/img/carousel/724-Events1.png"],
   },
   {
     id: 8,
@@ -177,6 +184,7 @@ export const portfolioData = [
       my knowledge in the use of React, and to learn how to use Redux to set up a global state on a
       site, as well as to learn how to create API routes in yaml format.`,
     ],
+    imgSrcs : ["/assets/img/carousel/Argent-Bank.png", "/assets/img/carousel/Argent-Bank1.png"],
   },
 ];
 
