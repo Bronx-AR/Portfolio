@@ -10,7 +10,7 @@ export default function Education() {
           <Image
             width={38}
             height={23}
-            src="/assets/img/icon/edu-icon.png"
+            src="/assets/img/icon/edu-icon.webp"
             alt="icon"
           />
           Education
