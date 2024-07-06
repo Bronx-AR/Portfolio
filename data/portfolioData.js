@@ -3,7 +3,7 @@ export const portfolioData = [
     id: 1,
     class: "isotop-item logo",
     bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/Auberge-la-Canebiere.jpg",
+    imgSrc: "/assets/img/work/Auberge-la-Canebiere.webp",
     subtitle: "OpenClassrooms web integrator training project.",
     title: "Booki",
     target: "#portfolio-1",
@@ -19,13 +19,13 @@ export const portfolioData = [
       note on the specifies of the project. This allowed me to develop essential skills in responsive design, integrate a site according to a model as well
       as install a front-end development environment.`,
     ],
-    imgSrcs : ["/assets/img/carousel/Booki2.png", "/assets/img/carousel/Booki1.png"],
+    imgSrcs : ["/assets/img/carousel/Booki2.webp", "/assets/img/carousel/Booki1.webp"],
   },
   {
     id: 2,
     class: "isotop-item design mockup",
     bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/jay-wennington-N_Y88TWmGwA-unsplash.jpg",
+    imgSrc: "/assets/img/work/jay-wennington-N_Y88TWmGwA-unsplash.webp",
     subtitle: "OpenClassroom web integrator training project.",
     title: "OhMyFood",
     target: "#portfolio-1",
@@ -41,13 +41,13 @@ export const portfolioData = [
       to enrich the user experience of the site, all by versioning the site on GitHub. This allowed me to develop skills in mobile-first responsive design, 
       use of SASS as well as the use of GitHub.`,
     ],
-    imgSrcs : ["/assets/img/carousel/Ohmyfood.png", "/assets/img/carousel/Ohmyfood1.png"],
+    imgSrcs : ["/assets/img/carousel/Ohmyfood.webp", "/assets/img/carousel/Ohmyfood.webp"],
   },
   {
     id: 3,
     class: "isotop-item logo mockup",
     bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/colors.jpg",
+    imgSrc: "/assets/img/work/colors.webp",
     subtitle: "OpenClassroom web integrator training project.",
     title: "Print-It",
     target: "#portfolio-1",
@@ -62,13 +62,13 @@ export const portfolioData = [
       website by adding an interactive carousel. So my mission was to update the existing HTML code and add a carousel in JavaScript.
       This project allowed me to work on the fundamentals of JavaScript.`,
     ],
-    imgSrcs : ["/assets/img/carousel/Print-it.png", "/assets/img/carousel/Print-it1.png"],
+    imgSrcs : ["/assets/img/carousel/Print-it.webp", "/assets/img/carousel/Print-it.webp"],
   },
   {
     id: 4,
     class: "isotop-item mockup",
     bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/sophie-bluel.png",
+    imgSrc: "/assets/img/work/sophie-bluel.webp",
     subtitle: "OpenClassroom web integrator training project.",
     title: "Sophie Bluel",
     target: "#portfolio-1",
@@ -86,13 +86,13 @@ export const portfolioData = [
       as well as learn to communicate with a database.
       `,
     ],
-    imgSrcs : ["/assets/img/carousel/Sophie-Bluel.png", "/assets/img/carousel/Sophie-Bluel1.png"],
+    imgSrcs : ["/assets/img/carousel/Sophie-Bluel.webp", "/assets/img/carousel/Sophie-Bluel.webp"],
   },
   {
     id: 5,
     class: "isotop-item design logo",
     bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/Kasa 1654513af767e6d7b860.jpg",
+    imgSrc: "/assets/img/work/Kasa 1654513af767e6d7b860.webp",
     subtitle: "OpenClassroom web integrator training project.",
     title: "Kasa",
     target: "#portfolio-1",
@@ -108,7 +108,7 @@ export const portfolioData = [
       wanted to add animations to improve the user experience. This project allowed me to learn
       programming with React and therefore to develop my code into components.`,
     ],
-    imgSrcs : ["/assets/img/carousel/Kasa.png", "/assets/img/carousel/Kasa1.png"],
+    imgSrcs : ["/assets/img/carousel/Kasa.webp", "/assets/img/carousel/Kasa1.webp"],
   },
   {
     id: 6,
@@ -134,13 +134,13 @@ export const portfolioData = [
       with schema.org. It also allowed me to strengthen my knowledge of HTML semantics for
       accessibility, as well as how to optimize images for a site.`,
     ],
-    imgSrcs : ["/assets/img/carousel/Nina-Carducci.png", "/assets/img/carousel/Nina-Carducci1.png"],
+    imgSrcs : ["/assets/img/carousel/Nina-Carducci.webp", "/assets/img/carousel/Nina-Carducci1.webp"],
   },
   {
     id: 7,
     class: "isotop-item mockup design",
     bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/hall-expo.png",
+    imgSrc: "/assets/img/work/hall-expo.webp",
     subtitle: "OpenClassroom web integrator training project.",
     title: "724 Events",
     target: "#portfolio-1",
@@ -158,7 +158,7 @@ export const portfolioData = [
       It also taught me how to write unit tests for different components, and strengthen
       my knowledge of using the console in the middle of development.`,
     ],
-    imgSrcs : ["/assets/img/carousel/724-Events.png", "/assets/img/carousel/724-Events1.png"],
+    imgSrcs : ["/assets/img/carousel/724-Events.webp", "/assets/img/carousel/724-Events1.webp"],
   },
   {
     id: 8,
@@ -184,7 +184,7 @@ export const portfolioData = [
       my knowledge in the use of React, and to learn how to use Redux to set up a global state on a
       site, as well as to learn how to create API routes in yaml format.`,
     ],
-    imgSrcs : ["/assets/img/carousel/Argent-Bank.png", "/assets/img/carousel/Argent-Bank1.png"],
+    imgSrcs : ["/assets/img/carousel/Argent-Bank.webp", "/assets/img/carousel/Argent-Bank1.webp"],
   },
 ];
 
