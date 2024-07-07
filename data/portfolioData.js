@@ -41,7 +41,7 @@ export const portfolioData = [
       to enrich the user experience of the site, all by versioning the site on GitHub. This allowed me to develop skills in mobile-first responsive design, 
       use of SASS as well as the use of GitHub.`,
     ],
-    imgSrcs : ["/assets/img/carousel/Ohmyfood.webp", "/assets/img/carousel/Ohmyfood.webp"],
+    imgSrcs : ["/assets/img/carousel/Ohmyfood.webp", "/assets/img/carousel/Ohmyfood1.webp"],
   },
   {
     id: 3,
